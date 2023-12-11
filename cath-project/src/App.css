@@ -1,0 +1,74 @@
+body {
+  background-color: #5865f2;
+  margin: 0px;
+  padding: 0px;
+  color:white;
+}
+
+.App {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBar img {
+  height: 30px;
+  padding: 40px;
+}
+
+.HeroElements {
+  padding-left: 40px;
+  padding-right: 40px;
+  width : 60%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.HeroContainer {
+  background-image: url(./assets/discord-background.png) ;
+  height: 700px; 
+  background-position: bottom right; 
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 90px;
+  line-height: 0.8;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+button {
+  padding: 20px 35px;
+  margin : 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}
+
+.whiteButton {
+  background-color: white;
+  color: black ;
+}
+
+.blackButton {
+  background-color: black;
+  color: #ffffff;
+}
